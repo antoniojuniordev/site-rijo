@@ -10391,9 +10391,10 @@ textarea {
     color: #fff !important; }
 
 .gradient {
-  background-image: linear-gradient(to right, #ef146e 0, #fea958 51%, #ef146e 100%);
+  background-image: linear-gradient(to right, #4848da 0, #002dd6 32, #68C2E8 100%);
   background-size: 200%;
   border-color: transparent !important;
+  border: none;
   transition: all 0.5s; }
 
 .gradient-sec {
@@ -13535,9 +13536,9 @@ ul.primary li:before {
     font-size: 32px; } }
 
 button.scroltop {
-  box-shadow: -4px 4px 24px -10px #f01f75 !important;
-  background: #f01f75;
-  border-color: #f01f75;
+  box-shadow: -4px 4px 24px -10px #68C2E8 !important;
+  background: #68C2E8;
+  border-color: #68C2E8;
   border-radius: 4px;
   border-style: solid;
   border-width: 0;
@@ -15083,7 +15084,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
     display: table-cell;
     vertical-align: middle; }
   .logo-header img {
-    height: auto;
+    height: 55px;
     width: 100%; }
   .logo-header span {
     font-size: 20px;

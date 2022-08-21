@@ -74,8 +74,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
 		<Head>
-			<title>Samar - React Template</title>
-			<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
+			<title>Rijo</title>
+			<link rel="icon" type="image/ico" sizes="16x16" href="/favicon.ico"/>
         </Head>	
       <div className="page-wraper">
         <Component {...pageProps} />

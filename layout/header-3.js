@@ -16,8 +16,8 @@ function Header3() {
                         <div className="logo-header mostion logo-dark">
                            <Link href="/">
 								<a>
-									<img className="custom-logo-white" src="images/logo-white.png" alt="" />
-									<img className="custom-logo" src="images/logo-3.png" alt="" />
+									<img className="custom-logo-white" src="images/rijo-logo-white.svg" alt="" />
+									<img className="custom-logo" src="images/rijo-logo.svg" alt="" />
 								</a>
 							</Link>
 							
