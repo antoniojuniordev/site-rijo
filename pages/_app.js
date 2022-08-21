@@ -81,22 +81,6 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </div>
       
-      <a
-        href="https://themeforest.net/cart/configure_before_adding/32950742/?license=regular;"
-        target="_blank"
-        className="bt-buy-now theme-btn"
-      >
-        <i className="ti-shopping-cart" />
-        <span>Buy Now</span>
-      </a>
-      <a
-        href="https://support.w3itexperts.com"
-        target="_blank"
-        className="bt-support-now theme-btn"
-      >
-        <i className="ti-headphone-alt" />
-        <span>Support</span>
-      </a>
       <a href="#top">
         <button
           className="scroltop icon-up"
