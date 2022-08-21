@@ -15,22 +15,13 @@ import Footer3 from "./../layout/footer-3";
 import Header3 from "./../layout/header-3";
 
 function Index3() {
- 
   return (
     <>
       <Header3 />
       <div className="page-content bg-white" id="top">
         <Slider3 />
         <Service3 />
-        <AboutUs3 />
         <Features3 />
-        <Projects3 />
-        <Newsletter3 />
-        <Team3 />
-        <PricingT3 />
-        <Testimonial3 />
-        <Blog3 />
-        <Clients3 />
         <GetInTouch3 />
         <Footer3 />
       </div>
