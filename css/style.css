@@ -13578,7 +13578,7 @@ label.error {
 }
 
 .input-group {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .input-group-prepend {
@@ -21117,13 +21117,36 @@ footer .widget_getintuch ul li i {
 .controlled-group {
   flex: 1;
   flex-direction: column;
-  height: 76px;
+  min-height: 76px;
+}
+.controlled-group-text-area {
+  min-height: 150px !important;
 }
 .error-input {
   color: rgb(219, 62, 62);
   font-size: 12px;
   margin-left: 12px;
   margin-top: 6px;
+}
+.g-recaptcha {
+  height: 40px;
+  min-width: 210px;
+  border-radius: 10px;
+  background-color: #d3d3d3;
+  border: solid #b3b3b3 2px;
+  color: rgb(82, 82, 82);
+}
+.g-recaptcha:hover {
+  background-color: rgb(201, 199, 199);
+  border: solid #d1cece 2px;
+}
+.g-recaptcha:disabled {
+  background-color: #fdfdfd;
+  border: solid #d3d2d2 2px;
+  color: #ccc;
+}
+.div-group {
+  margin-bottom: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
