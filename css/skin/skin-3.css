@@ -1,11 +1,11 @@
 :root {
-  --gradient3: linear-gradient(to right, #ef146e 0, #fea958 51%, #ef146e 100%);
-  --gradient: linear-gradient(to right, #ef146e 0, #fea958 51%, #ef146e 100%);
+  --gradient3: linear-gradient(to right, #020024 0, #090979 51%, #00d4ff 100%);
+  --gradient: linear-gradient(to right, #020024 0, #090979 51%, #00d4ff 100%);
   --gradient-sec: linear-gradient(
     to right,
-    #111c58 0,
-    #5c2782 51%,
-    #111c58 100%
+    #020024 0,
+    #090979 60%,
+    #090979 100%
   );
 }
 
