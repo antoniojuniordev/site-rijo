@@ -73,23 +73,22 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-		<Head>
-			<title>Rijo</title>
-			<link rel="icon" type="image/ico" sizes="16x16" href="/favicon.ico"/>
-        </Head>	
+      <Head>
+        <title>Rijo</title>
+        <link rel="icon" type="image/ico" sizes="16x16" href="/favicon.ico" />
+      </Head>
       <div className="page-wraper">
         <Component {...pageProps} />
       </div>
-      
-      <a href="#top">
-        <button
-          className="scroltop icon-up"
-          type="button"
-          style={{ display: "inline-block" }}
-        >
-          <i className="fa fa-arrow-up" />
-        </button>
-      </a>
+
+      <button
+        className="scroltop icon-up"
+        type="button"
+        style={{ display: "inline-block" }}
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      >
+        <i className="fa fa-arrow-up" />
+      </button>
     </>
   );
 }

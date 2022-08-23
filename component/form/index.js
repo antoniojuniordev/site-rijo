@@ -2,7 +2,11 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { forwardRef, useImperativeHandle } from "react";
 function FormComponent({ render, onSubmit, validations, ...props }, ref) {
-  const renderForm = useForm({ resolver: yupResolver(validations), ...props });
+  const renderForm = useForm({
+    resolver: yupResolver(validations),
+    shouldUnregister: false,
+    ...props,
+  });
 
   useImperativeHandle(ref, () => ({
     setValues(payload) {
